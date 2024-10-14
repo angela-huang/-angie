@@ -2,8 +2,8 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   outputPath: 'docs-dist',
-  baseUrl: '/-angie',
-  publichPaht: '/-angie',
+  base: '/gbi-ui',
+  publicPath: '/gbi-ui/',
   conventionLayout: false,
   themeConfig: {
     name: '',
